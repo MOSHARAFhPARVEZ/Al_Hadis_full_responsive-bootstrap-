@@ -1,0 +1,526 @@
+@media (min-width: 992px) and (max-width: 1199.99px) {
+
+
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991.99px) {
+
+  /* Navbar Part  */
+  .nav-item .nav-link {
+    color: #000000;
+    margin-bottom: 10px;
+  }
+
+  .nav-item .nav-link::after {
+    display: none;
+  }
+
+  .nav_btn {
+    background: #36a37d;
+    border: 3px solid #36a37d;
+    color: #fff;
+  }
+
+  .nav_btn:hover {
+    background: #36a37d;
+    color: #fff;
+  }
+
+  .offcanvas_btn {
+    background: #fff;
+  }
+
+  .offcanvas_btn .fa-bars {
+    color: #36a37d;
+    font-size: 20px;
+  }
+
+  .offcanvas_btn:hover {
+    background: #fff;
+  }
+
+  /* Navbar Part  */
+
+  /* Banner Part  */
+
+  #banner {
+    padding: 206px 0 78px 0;
+  }
+
+  #banner .banner_content p {
+    padding: 0 17px;
+    margin-top: 70px;
+  }
+
+  #banner .banner_content .banner_search {
+    margin-top: 75px;
+  }
+
+  #banner .banner_content .banner_search h2 {
+    font-size: 29px;
+    margin-bottom: 35px;
+  }
+
+  #banner .banner_content .banner_search .search_bar {
+    padding: 6px 6px 6px 6px;
+  }
+
+  #banner .banner_content .banner_search .search_bar input {
+    padding: 6px 0px;
+  }
+
+  .banner_search .xs-btn {
+    background: #36a37d;
+    border: none;
+    padding: 13px 27px;
+    border-radius: 12px;
+    column-gap: 18px;
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .banner_search .xs-btn span {
+    font-family: "kalpurush";
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+  }
+
+  .banner_search .xs-btn .icon {
+    font-size: 20px;
+    color: #ffffff;
+  }
+
+  /* Banner Part  */
+
+  /* About Part  */
+
+  #common_header p {
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 12px;
+    padding: 0 26px;
+  }
+
+  /* About Part  */
+
+  /* Slide Hadis Part  */
+
+  #slide_hadis {
+    padding: 93px 0px;
+  }
+
+  #slide_hadis .innner_slide_hadis {
+    height: 215px;
+  }
+
+  #slide_hadis .innner_slide_hadis p {
+    font-size: 18px;
+    line-height: 34.5px;
+    padding: 0px 57px;
+  }
+
+  /* Slide Hadis Part  */
+
+  /* CTA Part  */
+
+  #cta .cta_inner .cta_content .cta_content_header h3 {
+    font-size: 37px;
+    padding: 0 74px;
+    line-height: 56px;
+  }
+
+  #cta .cta_inner .cta_content .cta_content_header p {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0 27px;
+    margin-top: 6px;
+  }
+
+  /* CTA Part  */
+
+  /* Footer Part  */
+
+  footer {
+    padding-top: 43px;
+  }
+
+  footer .footer_content .footer_main_content h5 {
+    margin-top: 33px;
+    margin-bottom: 12px;
+  }
+
+  footer .footer_content .footer_main_content {
+    padding-bottom: 9px;
+  }
+
+  footer .footer_content .footer_menu h6 {
+    margin-top: 36px;
+    margin-bottom: 5px;
+  }
+
+  footer .footer_content .footer_menu h6 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+
+  /* Footer Part  */
+
+
+
+
+
+
+
+}
+
+
+
+
+@media (min-width: 576px) and (max-width: 767.99px) {
+
+  /* Navbar Part  */
+  .nav-item .nav-link {
+    color: #000000;
+    margin-bottom: 10px;
+  }
+
+  .nav-item .nav-link::after {
+    display: none;
+  }
+
+  .nav_btn {
+    background: #36a37d;
+    border: 3px solid #36a37d;
+    color: #fff;
+  }
+
+  .nav_btn:hover {
+    background: #36a37d;
+    color: #fff;
+  }
+
+  .offcanvas_btn {
+    background: #fff;
+  }
+
+  .offcanvas_btn .fa-bars {
+    color: #36a37d;
+    font-size: 20px;
+  }
+
+  .offcanvas_btn:hover {
+    background: #fff;
+  }
+
+  /* Navbar Part  */
+
+  /* Banner Part  */
+
+  #banner {
+    padding: 206px 0 78px 0;
+  }
+
+  #banner .banner_content p {
+    padding: 0 17px;
+    margin-top: 70px;
+  }
+
+  #banner .banner_content .banner_search {
+    margin-top: 75px;
+  }
+
+  #banner .banner_content .banner_search h2 {
+    font-size: 29px;
+    margin-bottom: 35px;
+  }
+
+  #banner .banner_content .banner_search .search_bar {
+    padding: 6px 6px 6px 6px;
+  }
+
+  #banner .banner_content .banner_search .search_bar input {
+    padding: 6px 0px;
+  }
+
+  .banner_search .xs-btn {
+    background: #36a37d;
+    border: none;
+    padding: 13px 27px;
+    border-radius: 12px;
+    column-gap: 18px;
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .banner_search .xs-btn span {
+    font-family: "kalpurush";
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+  }
+
+  .banner_search .xs-btn .icon {
+    font-size: 20px;
+    color: #ffffff;
+  }
+
+  /* Banner Part  */
+
+  /* About Part  */
+
+  #common_header p {
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 12px;
+    padding: 0 26px;
+  }
+
+  /* About Part  */
+
+  /* Slide Hadis Part  */
+
+  #slide_hadis {
+    padding: 93px 0px;
+  }
+
+  #slide_hadis .innner_slide_hadis {
+    height: 202px;
+  }
+
+  #slide_hadis .innner_slide_hadis p {
+    font-size: 16px;
+    line-height: 29.5px;
+    padding: 0px 56px;
+  }
+
+  /* Slide Hadis Part  */
+
+  /* CTA Part  */
+
+  #cta .cta_inner .cta_content .cta_content_header h3 {
+    font-size: 37px;
+    padding: 0 74px;
+    line-height: 56px;
+  }
+
+  #cta .cta_inner .cta_content .cta_content_header p {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0 27px;
+    margin-top: 6px;
+  }
+
+  /* CTA Part  */
+
+  /* Footer Part  */
+
+  footer {
+    padding-top: 43px;
+  }
+
+  footer .footer_content .footer_main_content h5 {
+    margin-top: 33px;
+    margin-bottom: 12px;
+  }
+
+  footer .footer_content .footer_main_content {
+    padding-bottom: 9px;
+  }
+
+  footer .footer_content .footer_menu h6 {
+    margin-top: 36px;
+    margin-bottom: 5px;
+  }
+
+  footer .footer_content .footer_menu h6 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+
+  /* Footer Part  */
+
+
+
+
+
+
+
+}
+
+
+
+
+@media (max-width: 575.99px) {
+
+  /* Navbar Part  */
+  .nav-item .nav-link {
+    color: #000000;
+    margin-bottom: 10px;
+  }
+
+  .nav-item .nav-link::after {
+    display: none;
+  }
+
+  .nav_btn {
+    background: #36a37d;
+    border: 3px solid #36a37d;
+    color: #fff;
+  }
+
+  .nav_btn:hover {
+    background: #36a37d;
+    color: #fff;
+  }
+
+  .offcanvas_btn {
+    background: #fff;
+  }
+
+  .offcanvas_btn .fa-bars {
+    color: #36a37d;
+    font-size: 20px;
+  }
+
+  .offcanvas_btn:hover {
+    background: #fff;
+  }
+
+  /* Navbar Part  */
+
+  /* Banner Part  */
+
+  #banner {
+    padding: 206px 0 78px 0;
+  }
+
+  #banner .banner_content p {
+    padding: 0 17px;
+    margin-top: 70px;
+  }
+
+  #banner .banner_content .banner_search {
+    margin-top: 75px;
+  }
+
+  #banner .banner_content .banner_search h2 {
+    font-size: 29px;
+    margin-bottom: 35px;
+  }
+
+  #banner .banner_content .banner_search .search_bar {
+    padding: 6px 6px 6px 6px;
+  }
+
+  #banner .banner_content .banner_search .search_bar input {
+    padding: 6px 0px;
+  }
+
+  .banner_search .xs-btn {
+    background: #36a37d;
+    border: none;
+    padding: 13px 27px;
+    border-radius: 12px;
+    column-gap: 18px;
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .banner_search .xs-btn span {
+    font-family: "kalpurush";
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+  }
+
+  .banner_search .xs-btn .icon {
+    font-size: 20px;
+    color: #ffffff;
+  }
+
+  /* Banner Part  */
+
+  /* About Part  */
+
+  #common_header p {
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 12px;
+    padding: 0 26px;
+  }
+
+  /* About Part  */
+
+  /* Slide Hadis Part  */
+
+  #slide_hadis {
+    padding: 93px 0px;
+  }
+
+  #slide_hadis .innner_slide_hadis {
+    height: 189px;
+  }
+
+  #slide_hadis .innner_slide_hadis p {
+    font-size: 13px;
+    line-height: 19.5px;
+    padding: 0px 32px;
+  }
+
+  /* Slide Hadis Part  */
+
+  /* CTA Part  */
+
+  #cta .cta_inner .cta_content .cta_content_header h3 {
+    font-size: 26px;
+    padding: 0 53px;
+    line-height: 34px;
+  }
+
+  #cta .cta_inner .cta_content .cta_content_header p {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0 27px;
+    margin-top: 6px;
+  }
+
+  /* CTA Part  */
+
+  /* Footer Part  */
+
+  footer {
+    padding-top: 43px;
+  }
+
+  footer .footer_content .footer_main_content h5 {
+    margin-top: 33px;
+    margin-bottom: 12px;
+  }
+
+  footer .footer_content .footer_main_content {
+    padding-bottom: 9px;
+  }
+
+  footer .footer_content .footer_menu h6 {
+    margin-top: 36px;
+    margin-bottom: 5px;
+  }
+
+  footer .footer_content .footer_menu h6 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+
+  /* Footer Part  */
+
+
+
+
+
+
+
+}

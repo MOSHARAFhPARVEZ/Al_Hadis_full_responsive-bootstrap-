@@ -1,0 +1,579 @@
+/* Fonts Part Start */
+@font-face {
+  font-family: "kalpurush";
+  src: url(../fonts/kalpurush.ttf);
+}
+/* Fonts Part End */
+
+/* All Common CSS Start */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  line-height: 0.8;
+}
+
+/* All Common CSS End */
+
+/* ============================================================================
+===========================>> Navbar Start Here  <<=========================== 
+============================================================================ */
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.nav-item .nav-link {
+  font-family: "kalpurush";
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  transition: all linear 0.3s;
+  padding: 0 !important;
+  padding: 0 20px !important;
+  position: relative;
+}
+
+.nav-item .nav-link:hover {
+  color: #36a37d;
+}
+
+.nav-link::after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  width: 0px;
+  height: 1.5px;
+  background-color: #36a37d;
+  transition: all linear 0.3s;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.nav_btn {
+  background: #ffffff;
+  border: 3px solid #36a37d;
+  border-radius: 8px;
+  font-family: "kalpurush";
+  font-size: 20px;
+  font-weight: 400;
+  color: #36a37d;
+  padding: 11px 19px 12px 20px;
+  gap: 12px;
+}
+
+.nav_btn:hover {
+  background: #ffffff;
+}
+
+.nav_btn i {
+  font-size: 30px;
+}
+
+
+/* ============================================================================
+===========================>> Navbar End Here  <<=========================== 
+============================================================================ */
+
+/* ============================================================================
+===========================>> Banner Start Here  <<=========================== 
+============================================================================ */
+
+#banner {
+  background: linear-gradient(rgb(0, 0, 0, 0.78), rgba(0, 0, 0, 0.78)),
+    url(../images/banner_img.jpg);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 297px 0 78px 0;
+}
+
+#banner .banner_content {
+  text-align: center;
+}
+
+#banner .banner_content p {
+  font-family: "kalpurush";
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+  padding: 0 50px;
+  line-height: 27px;
+  margin-top: 137px;
+}
+
+#banner .banner_content .banner_search {
+  margin-top: 137px;
+}
+
+#banner .banner_content .banner_search h2 {
+  font-family: "kalpurush";
+  font-size: 40px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+#banner .banner_content .banner_search .search_bar {
+  padding: 6px 6px 6px 37px;
+  border-radius: 12px;
+  background: #fff;
+  box-sizing: border-box;
+}
+
+#banner .banner_content .banner_search .search_bar .search_bar_input input {
+  padding: 28px 0px;
+  border: none;
+  outline: none;
+  width: 75%;
+  font-family: "kalpurush";
+  font-size: 15px;
+  font-weight: 500;
+  color: #a9a3b7;
+}
+
+.search_btn {
+  column-gap: 19px;
+  overflow: hidden;
+}
+
+#banner .banner_content .banner_search .search_bar .search_btn img {
+  cursor: pointer;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#banner .banner_content .banner_search .search_bar .search_btn button {
+  background: #36a37d;
+  border: none;
+  padding: 21px 27px;
+  border-radius: 0px 12px 12px 0px;
+  column-gap: 18px;
+}
+
+#banner .banner_content .banner_search .search_bar .search_btn button span {
+  font-family: "kalpurush";
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+#banner .banner_content .banner_search .search_bar .search_btn button .icon {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+/* ============================================================================
+===========================>> Banner End Here  <<=========================== 
+============================================================================ */
+
+/* ============================================================================
+===========================>> About Start Here  <<=========================== 
+============================================================================ */
+
+#about {
+  padding: 66px 0;
+  background: #f0f0f0 !important;
+  background: url(../images/about_bg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#common_header h2 {
+  font-family: "kalpurush";
+  font-size: 40px;
+  font-weight: 400;
+  color: #36a37d;
+  text-align: center;
+}
+
+#common_header p {
+  font-family: "kalpurush";
+  font-size: 18px;
+  font-weight: 400;
+  color: #626d7d;
+  line-height: 27px;
+  margin-top: 12px;
+  padding: 0 50px;
+  text-align: center;
+}
+
+#about .about_cards {
+  background-color: #fff;
+  height: 405px;
+  border-radius: 12px;
+  margin-top: 65px;
+  position: relative;
+  transition: all linear 0.3s;
+}
+
+#about .about_cards::before {
+  content: "";
+  position: absolute;
+  height: 155px;
+  width: 170px;
+  top: 0;
+  right: 0;
+  background: url(../images/about_card_img_one.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#about .about_cards::after {
+  content: "";
+  position: absolute;
+  height: 155px;
+  width: 170px;
+  bottom: 0;
+  left: 0;
+  background: url(../images/about_card_img_two.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#about .about_cards .about_card_content {
+  width: 96%;
+  height: 96%;
+  border-radius: 12px;
+  transition: all linear 0.3s;
+}
+
+#about .about_cards .about_card_content h5 {
+  font-family: "kalpurush";
+  font-size: 25px;
+  font-weight: 400;
+  color: #36a37d;
+  transition: all linear 0.3s;
+}
+
+#about .about_cards .about_card_content p {
+  font-family: "kalpurush";
+  font-size: 16px;
+  font-weight: 400;
+  color: #626d7d;
+  margin-top: 10px;
+  transition: all linear 0.3s;
+}
+
+#about .about_cards:hover {
+  background-color: #36a37d;
+  transform: translateY(-15px);
+}
+
+#about .about_cards:hover .about_card_content {
+  border: 1px solid #fff;
+}
+
+#about .about_cards:hover .about_card_content h5 {
+  color: #fff;
+}
+
+#about .about_cards:hover .about_card_content p {
+  color: #fff;
+}
+
+#about .about_cards:hover::after {
+  opacity: 60%;
+}
+
+#about .about_cards:hover::before {
+  opacity: 60%;
+}
+
+#about .about_btn {
+  margin-top: 90px;
+}
+
+#about .about_btn button {
+  background: #36a37d;
+  border-radius: 8px;
+  padding: 15px 20px;
+  border: none;
+  gap: 10px;
+}
+
+#about .about_btn button span {
+  font-family: "kalpurush";
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+}
+
+/* ============================================================================
+===========================>> About End Here  <<=========================== 
+============================================================================ */
+
+/* ============================================================================
+===========================>> Slide_Hadis Start Here  <<=========================== 
+============================================================================ */
+
+#slide_hadis {
+  background: #f5f5f5;
+  padding: 275px 0px;
+  background: url(../images/slide_hadis_img_one.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#slide_hadis .innner_slide_hadis {
+  background: url(../images/slide_hadis_inner.jpg);
+  background-position: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 264px;
+  border-radius: 17px;
+}
+
+#slide_hadis .innner_slide_hadis p {
+  font-family: "kalpurush";
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 34.5px;
+  color: #fff;
+  padding: 0px 110px;
+}
+
+/* ============================================================================
+===========================>> Slide_Hadis End Here  <<=========================== 
+============================================================================ */
+
+/* ============================================================================
+===========================>> Subject Start Here  <<=========================== 
+============================================================================ */
+
+#subject {
+  padding: 72px 0;
+  background: #f0f0f0 !important;
+  background: url(../images/about_bg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#subject .subject_item {
+  background-color: #fff;
+  height: 418px;
+  border-radius: 12px;
+  margin-top: 65px;
+  position: relative;
+  transition: all linear 0.3s;
+  background: url(../images/subject_item_img_one.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#subject .subject_item:hover {
+  background: url(../images/subject_item_img_two.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#subject .subject_item .subject_item_content h5 {
+  font-family: "kalpurush";
+  font-size: 25px;
+  font-weight: 400;
+  color: #36a37d;
+}
+
+#subject .subject_item .subject_item_content p {
+  font-family: "kalpurush";
+  font-size: 18px;
+  font-weight: 400;
+  color: #626d7d;
+  margin-top: 10px;
+}
+
+#subject .subject_btn {
+  margin-top: 52px;
+}
+
+#subject .subject_btn button {
+  padding: 15px 20px;
+  background: #36a37d;
+  border: none;
+  gap: 15px;
+}
+
+#subject .subject_btn button span {
+  font-family: "kalpurush";
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+}
+
+/* ============================================================================
+===========================>> Subject End Here  <<=========================== 
+============================================================================ */
+
+/* ============================================================================
+===========================>> CTA Start Here  <<=========================== 
+============================================================================ */
+
+#cta {
+  padding: 50px 0px;
+  color: #f5f5f5;
+}
+
+#cta .cta_inner {
+  background: url(../images/cta_bg_img.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#cta .cta_inner .cta_content {
+  padding: 93px 0px;
+}
+
+#cta .cta_inner .cta_content .cta_content_header h3 {
+  font-family: "kalpurush";
+  font-size: 40px;
+  font-weight: 400;
+  color: #36a37d;
+  padding: 0 100px;
+  line-height: 42px;
+}
+
+#cta .cta_inner .cta_content .cta_content_header p {
+  font-family: "kalpurush";
+  font-size: 18px;
+  font-weight: 400;
+  color: #626d7d;
+  line-height: 27px;
+  padding: 0 50px;
+  margin-top: 12px;
+}
+
+#cta .cta_inner .cta_content .cta_content_action {
+  margin-top: 76px;
+  column-gap: 30px;
+}
+
+#cta .cta_inner .cta_content .cta_content_action button {
+  padding: 14px 34px;
+  border: none;
+  background: #36a37d;
+  border-radius: 8px;
+  column-gap: 10px;
+}
+
+#cta .cta_inner .cta_content .cta_content_action button .cta_content_text {
+  text-align: left;
+}
+
+#cta .cta_inner .cta_content .cta_content_action button .cta_content_text span {
+  font-family: "Inter", serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #fff;
+}
+
+#cta .cta_inner .cta_content .cta_content_action button .cta_content_text p {
+  font-family: "Inter", serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #fff;
+}
+
+#cta .cta_inner .cta_content .cta_content_action button .icon {
+  font-size: 30px;
+  color: #fff;
+}
+
+/* ============================================================================
+===========================>> CTA End Here  <<=========================== 
+============================================================================ */
+
+/* ============================================================================
+===========================>> Footer Start Here  <<=========================== 
+============================================================================ */
+
+footer {
+  padding-top: 74px;
+  background: #3fa883;
+}
+
+footer .footer_content {
+  background: url(../images/footer_img.png);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+footer .footer_content .footer_main_content {
+  padding-bottom: 74px;
+}
+
+footer .footer_content .footer_main_content h5 {
+  font-family: "kalpurush";
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  margin-top: 66px;
+  margin-bottom: 14px;
+}
+
+footer .footer_content .footer_main_content p {
+  font-family: "kalpurush";
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  line-height: 20px;
+  padding-right: 61px;
+}
+
+footer .footer_content .footer_menu h6 {
+  font-family: "kalpurush";
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  margin-top: 112px;
+  margin-bottom: 14px;
+}
+
+footer .footer_content .footer_menu .menu_parent {
+  column-gap: 20px;
+  padding-left: 0;
+}
+
+footer .footer_content .footer_menu .menu_parent .footer_menu_list {
+  font-family: "kalpurush";
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+  margin: 17px 0;
+}
+
+/* ============================================================================
+===========================>> Footer End Here  <<=========================== 
+============================================================================ */
